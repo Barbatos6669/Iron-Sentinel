@@ -24,7 +24,8 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 
 # List of cogs to load
 COGS_TO_LOAD = [
-    "cogs.gpt_powered_mod"
+    "cogs.gpt_powered_mod",
+    "cogs.regiment_info"
 ]
 
 async def load_extensions():
